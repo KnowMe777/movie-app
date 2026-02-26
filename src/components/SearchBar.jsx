@@ -30,6 +30,13 @@ const SearchBar = ({ onSearch }) => {
         >
           Search
         </button>
+
+        <button
+          type="submit"
+          className="absolute right-1 top-1/2 transform -translate-y-1/2 bg-linear-to-r from-[#FB2C36] to-[#FE9A00] text-white px-4 py-1 rounded-lg hover:opacity-90 transition flex items-center gap-1"
+        >
+          Search
+        </button>
       </div>
     </form>
   );
