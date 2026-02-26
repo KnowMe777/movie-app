@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import MovieCard from "../components/MovieCard";
 import MovieDetails from "./MovieDetails";
-import SearchBar from "../components/Searchbar";
+import SearchBar from "../components/SearchBar";
 import Loader from "../components/Loader";
 
 const API_KEY = "8aa3c21b";
